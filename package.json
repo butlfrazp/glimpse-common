@@ -1,6 +1,6 @@
 {
   "name": "glimpse-common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A package for the common models used in glimpse",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
