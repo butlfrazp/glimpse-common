@@ -1,7 +1,6 @@
 import {FirebaseErrorCodes} from "./FirebaseErrorCodes";
 import {ICollection} from "./ICollection";
 import {ICollectionNotification} from "./ICollectionNotification";
-import {IErrorResponse} from "./IErrorResponse";
 import {IFirestoreCollection} from "./IFirestoreCollection";
 import {IFirestorePost} from "./IFirestorePost";
 import {IFirestoreUser} from "./IFirestoreUser";
@@ -13,7 +12,6 @@ export {
   FirebaseErrorCodes,
   ICollection,
   ICollectionNotification,
-  IErrorResponse,
   IFirestoreCollection,
   IFirestorePost,
   IFirestoreUser,
