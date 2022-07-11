@@ -1,3 +1,4 @@
+import { firestore } from "firebase-admin";
 import { IFirestoreUser } from "./IFirestoreUser";
 import { PrivacyStatus } from "./PrivacyStatus";
 export interface IFirestorePost {
@@ -10,4 +11,5 @@ export interface IFirestorePost {
     feedUserIds: string[];
     blobUris: string[];
     savedUserIds: string[];
+    createTime: firestore.FieldValue;
 }

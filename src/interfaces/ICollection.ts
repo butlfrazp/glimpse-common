@@ -6,6 +6,6 @@ export interface ICollection {
   user: IUser
   title: string
   blobUris: string[]
-  createdTime: firestore.FieldValue
+  createTime: firestore.FieldValue
   isSaved: boolean
 }

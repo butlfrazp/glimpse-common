@@ -8,6 +8,6 @@ export interface IPost {
   description: string
   linkedCollectionId: string | undefined
   blobUris: string[]
-  createdTime: firestore.FieldValue
+  createTime: firestore.FieldValue
   isSaved: boolean
 }
